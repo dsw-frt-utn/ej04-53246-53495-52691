@@ -1,2 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/39DJV9ho)
+# 💻  Desarrollo de Software  💻
+
+## Trabajo Práctico N°4 
+
+
+
+
+
+##  Integrantes
+
+| Legajo | Apellido y Nombre       | Cuenta (GitHub / Gmail)                  |
+|--------|--------------------------|------------------------------------------|
+| 53246  | Gonzalez Axel Sebastian  | Ag180066@gmail.com                       |
+| 53495  | Veliz Lautaro Ariel      | Lautaro.Veliz@alu.frt.utn.edu.ar         |
+| 52691  | Albornoz Martina         | Martina.albornoz@alu.frt.utn.edu.ar      |
+
+
+
 
