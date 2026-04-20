@@ -1,23 +1,18 @@
+
 package domain;
 
 public class Marca {
+    private String descripcion;
 
-    private String nombre;
-    private String pais;
-
-    public Marca(String nombre, String pais) {
-        this.nombre = nombre;
-        this.pais = pais;
-
+    public Marca(String descripcion) {
+        this.descripcion = descripcion;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getDescripcion() {
+        return descripcion;
     }
-
-    public String getPais() {
-
-        return pais;
-    }
-
+    @Override
+    public String toString() {
+    return descripcion;
+}
 }
