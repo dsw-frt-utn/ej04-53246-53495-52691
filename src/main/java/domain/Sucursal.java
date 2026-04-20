@@ -28,4 +28,8 @@ public class Sucursal {
     public Responsable getResponsable() {
         return responsable;
     }
+    @Override
+    public String toString() {
+    return codigo + " - " + ciudad;
+}
 }

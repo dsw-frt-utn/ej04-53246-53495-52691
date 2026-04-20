@@ -31,4 +31,17 @@ public class Controlador {
         }
         return new double[] {consumoElectricos, consumoCombustible};
     }
+    
+    public static void ingresarVehiculo(String patente, domain.Marca marca, String modelo, int anio,
+                                        double carga, domain.Sucursal suc, domain.VehiculoTipo tipo, 
+                                        double dato1, double dato2){
+        domain.Vehiculo nuevo;
+        if(tipo == domain.VehiculoTipo.ELECTRICO){
+            nuevo = new domain.VehiculoElectrico(patente, marca, modelo, anio, carga, suc, dato1);
+        }
+        else{
+            nuevo = new domain.VehiculoCombustible(patente, marca, modelo, anio, carga, suc, dato1, dato2);
+        }
+        data.Persistencia.getVehiculos().add(nuevo);
+    }
 }
